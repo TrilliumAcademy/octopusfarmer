@@ -4,6 +4,7 @@ import { nanoid } from 'nanoid';
 /** A Fish, which the Octopus wants to eat. */
 export class Fish {
 	id: string;
+	value: number;
 
 	constructor(
 		public world: GameWorld,
@@ -13,6 +14,7 @@ export class Fish {
 		public health: number
 	) {
 		this.id = Fish.newId();
+		this.value = group.value;
 		this.world.allFish.set(this.id, this);
 	}
 
