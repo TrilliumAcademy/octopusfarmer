@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { nanoid } from 'nanoid';
 import stringHash from 'string-hash';
 import { kv } from '@vercel/kv';
-import { World, GameDataInternal } from '@/lib/World';
+import { World, GameDataInternal } from '@/lib/GameWorld';
 import { GameData, GameMetadata, NewGameRequest } from '@mdwelsh/octofarm';
 import { loadGame, saveGame } from '@/lib/storage';
 

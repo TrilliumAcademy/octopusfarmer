@@ -7,6 +7,6 @@ import { GameData, OctopusPosition } from './types.js';
  */
 export function DumbOctopus(game: GameData): OctopusPosition {
 	const x = game.world.octopus.x + (Math.random() < 0.5 ? 1 : -1);
-	const y = game.world.octopus.x + (Math.random() < 0.5 ? 1 : -1);
+	const y = game.world.octopus.y + (Math.random() < 0.5 ? 1 : -1);
 	return { x, y } as OctopusPosition;
 }

@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals';
 
-import { World } from './World';
+import { World } from './GameWorld';
 
 test('New world created correctly', () => {
 	const world = new World({ newGame: { owner: 'me', gameType: 'normal' } });

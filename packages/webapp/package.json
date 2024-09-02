@@ -15,9 +15,9 @@
 		"extends": "next"
 	},
 	"dependencies": {
-		"@mdwelsh/octofarm": "*",
 		"@phosphor-icons/react": "^2.0.10",
 		"@radix-ui/react-alert-dialog": "^1.0.4",
+		"@radix-ui/react-select": "^2.1.1",
 		"@radix-ui/react-slot": "^1.0.2",
 		"@types/node": "20.3.1",
 		"@types/react": "18.2.12",
