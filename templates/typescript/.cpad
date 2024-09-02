@@ -1,8 +1,0 @@
-{
-  "targets": {
-    "run": {
-      "label": "Main",
-      "command": "npm run main"
-    }
-  }
-}
