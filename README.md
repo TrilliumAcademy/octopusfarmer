@@ -36,7 +36,7 @@ $ yarn                         # Installs all dependencies
 $ yarn build                   # Builds the app
 $ yarn dev                     # Starts the server locally on http://localhost:3000
 ```
-]
+
 ## How the game works
 
 The game world consists of a rectangular grid of dimension `width` x `height` .
